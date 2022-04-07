@@ -4,7 +4,7 @@ module.exports = {
     siteTitle: 'Running Page',
     siteUrl: 'https://stormzhai.github.io/running_page/',
     // logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
-    logo: 'https://gitee.com/stormzhai/pics/raw/master/images/running_page_logo_600_600.jpeg',
+    logo: 'https://stormzhai.github.io/running_page/static/assets/running_page_logo_600_600.jpeg',
     description: 'Personal site and blog',
     navLinks: [
       {
