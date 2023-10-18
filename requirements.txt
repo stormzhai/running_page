@@ -15,3 +15,4 @@ pyyaml
 aiofiles
 cloudscraper
 git+https://github.com/matin/garth.git
+pydantic=1.10.2
