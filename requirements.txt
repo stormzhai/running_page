@@ -14,4 +14,4 @@ timezonefinder
 pyyaml
 aiofiles
 cloudscraper
-garth
+git+https://github.com/matin/garth.git
