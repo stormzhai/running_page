@@ -14,3 +14,4 @@ timezonefinder
 pyyaml
 aiofiles
 cloudscraper
+garth

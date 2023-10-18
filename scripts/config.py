@@ -4,6 +4,19 @@ from re import M
 
 import yaml
 
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+OUTPUT_DIR = os.path.join(parent, "activities")
+GPX_FOLDER = os.path.join(parent, "GPX_OUT")
+TCX_FOLDER = os.path.join(parent, "TCX_OUT")
+FIT_FOLDER = os.path.join(parent, "FIT_OUT")
+ENDOMONDO_FILE_DIR = os.path.join(parent, "Workouts")
+FOLDER_DICT = {
+    "gpx": GPX_FOLDER,
+    "tcx": TCX_FOLDER,
+    "fit": FIT_FOLDER,
+}
+
 GET_DIR = "activities"
 OUTPUT_DIR = "activities"
 GPX_FOLDER = os.path.join(os.getcwd(), "GPX_OUT")
