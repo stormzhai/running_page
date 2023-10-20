@@ -1,8 +1,7 @@
 httpx==0.15.4
 gpxpy==1.4.2
 # stravalib==0.10.2
-#stravalib
-git+https://github.com/stravalib/stravalib.git
+stravalib
 appdirs>=1.4.0
 svgwrite>=1.1.9
 colour
@@ -15,5 +14,5 @@ timezonefinder
 pyyaml
 aiofiles
 cloudscraper
-git+https://github.com/matin/garth.git
+garth==0.4.38
 pydantic>=1.10.13
