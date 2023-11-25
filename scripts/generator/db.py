@@ -115,7 +115,7 @@ def update_or_create_activity(session, run_activity):
             created = True
         else:
             if run_activity.id==1698359991000:
-                pass
+                return created
             activity.name = run_activity.name
             activity.distance = float(run_activity.distance)
             activity.moving_time = run_activity.moving_time
