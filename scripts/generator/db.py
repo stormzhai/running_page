@@ -114,7 +114,7 @@ def update_or_create_activity(session, run_activity):
             session.add(activity)
             created = True
         else:
-            if float(run_activity.distance)>100:
+            if float(run_activity.distance)>100000:
                 return created
             activity.name = run_activity.name
             activity.distance = float(run_activity.distance)
