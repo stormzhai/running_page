@@ -111,9 +111,8 @@ def update_or_create_activity(session, run_activity):
                 average_speed=float(run_activity.average_speed),
                 summary_polyline=run_activity.map.summary_polyline,
             )
-            if float(run_activity.distance)<100000:
-                session.add(activity)
-            
+   
+            session.add(activity)
             created = True
         else:
             if float(run_activity.distance)>100000:
